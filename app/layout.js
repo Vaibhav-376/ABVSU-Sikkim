@@ -9,6 +9,7 @@ import Footer from "@/components/layout/Footer";
 import Navbarin from "@/components/layout/Navbar";
 import { motion } from "framer-motion";
 import { FaSpinner } from "react-icons/fa";
+import Footer2 from "@/components/layout/Footer2";
 
 const Preloader = () => {
   return (
@@ -50,7 +51,8 @@ export default function RootLayout({ children }) {
           <OurPartnersLogoSlider title={"Government Partners"} images={govPartnersImages} />
         </div> */}
 
-        <Footer />
+        {/* <Footer /> */}
+        <Footer2/>
       </body>
     </html>
   );

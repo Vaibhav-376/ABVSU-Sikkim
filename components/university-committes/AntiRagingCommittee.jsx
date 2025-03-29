@@ -129,7 +129,7 @@ const AntiRaggingCommittee = () => {
         <h1 className="font-bold text-2xl text-[#003262] mt-3">Notification</h1>
 
         <p className="mt-6">
-          <strong>Subject:</strong> Constitution of Anti-ragging Committee, Atal
+          <strong className="text-[#003262]">Subject:</strong> Constitution of Anti-ragging Committee, Atal
           Bihari Vajapayee Skill University (ABVSU) – Namchi, South Sikkim reg.
         </p>
 

@@ -107,7 +107,7 @@ const InternalComplaintCommittee = () => {
   return (
     <div className="max-w-6xl mx-auto px-4 py-8">
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-blue-800 to-blue-600 text-white rounded-xl p-8 mb-10 shadow-lg">
+      <div className="bg-[#003262] text-white rounded-xl p-8 mb-10 shadow-lg">
         <h1 className="text-3xl md:text-4xl font-bold mb-4">Internal Complaint Committee (ICC)</h1>
         <p className="text-lg md:text-xl">
           Ensuring a safe and harassment-free environment at Atal Bihari Vajapayee Skill University
@@ -116,7 +116,7 @@ const InternalComplaintCommittee = () => {
 
       {/* About Section */}
       <div className="bg-white rounded-xl shadow-md p-6 mb-8">
-        <h2 className="text-2xl font-bold text-blue-800 mb-4 border-b-2 border-blue-200 pb-2">About ICC</h2>
+        <h2 className="text-2xl font-bold text-[#003262] mb-4 border-b-2 border-blue-200 pb-2">About ICC</h2>
         <p className="text-gray-700 mb-4">
           As per the Sexual Harassment of Women at Workplace (Prevention, Prohibition, and Redressal) Act, 2013, 
           Atal Bihari Vajapayee Skill University has formed the Internal Complaint Committee (ICC) at the University 
@@ -134,11 +134,11 @@ const InternalComplaintCommittee = () => {
       <div className="grid md:grid-cols-3 gap-6 mb-8">
         {/* Objectives */}
         <div className="bg-white rounded-xl shadow-md p-6">
-          <h2 className="text-xl font-bold text-blue-800 mb-4 border-b-2 border-blue-200 pb-2">Objectives of ICC</h2>
+          <h2 className="text-xl font-bold text-[#003262] mb-4 border-b-2 border-blue-200 pb-2">Objectives of ICC</h2>
           <ul className="space-y-3">
             {objective.map((item) => (
               <li key={item.id} className="flex items-start">
-                <span className="bg-blue-100 text-blue-800 rounded-full w-6 h-6 flex items-center justify-center mr-3 flex-shrink-0">{item.id}</span>
+                <span className="bg-blue-100 text-[#003262] rounded-full w-6 h-6 flex items-center justify-center mr-3 flex-shrink-0">{item.id}</span>
                 <span className="text-gray-700">{item.desc}</span>
               </li>
             ))}
@@ -147,11 +147,11 @@ const InternalComplaintCommittee = () => {
 
         {/* Vision */}
         <div className="bg-white rounded-xl shadow-md p-6">
-          <h2 className="text-xl font-bold text-blue-800 mb-4 border-b-2 border-blue-200 pb-2">Vision of ICC</h2>
+          <h2 className="text-xl font-bold text-[#003262] mb-4 border-b-2 border-blue-200 pb-2">Vision of ICC</h2>
           <ul className="space-y-3">
             {vision.map((item) => (
               <li key={item.id} className="flex items-start">
-                <span className="bg-blue-100 text-blue-800 rounded-full w-6 h-6 flex items-center justify-center mr-3 flex-shrink-0">{item.id}</span>
+                <span className="bg-blue-100 text-[#003262] rounded-full w-6 h-6 flex items-center justify-center mr-3 flex-shrink-0">{item.id}</span>
                 <span className="text-gray-700">{item.desc}</span>
               </li>
             ))}
@@ -160,11 +160,11 @@ const InternalComplaintCommittee = () => {
 
         {/* Mission */}
         <div className="bg-white rounded-xl shadow-md p-6">
-          <h2 className="text-xl font-bold text-blue-800 mb-4 border-b-2 border-blue-200 pb-2">Mission of ICC</h2>
+          <h2 className="text-xl font-bold text-[#003262] mb-4 border-b-2 border-blue-200 pb-2">Mission of ICC</h2>
           <ul className="space-y-3">
             {mission.map((item) => (
               <li key={item.id} className="flex items-start">
-                <span className="bg-blue-100 text-blue-800 rounded-full w-6 h-6 flex items-center justify-center mr-3 flex-shrink-0">{item.id}</span>
+                <span className="bg-blue-100 text-[#003262] rounded-full w-6 h-6 flex items-center justify-center mr-3 flex-shrink-0">{item.id}</span>
                 <span className="text-gray-700">{item.desc}</span>
               </li>
             ))}
@@ -176,11 +176,11 @@ const InternalComplaintCommittee = () => {
       <div className="grid md:grid-cols-2 gap-6 mb-8">
         {/* Principles */}
         <div className="bg-white rounded-xl shadow-md p-6">
-          <h2 className="text-xl font-bold text-blue-800 mb-4 border-b-2 border-blue-200 pb-2">Principles of ICC</h2>
+          <h2 className="text-xl font-bold text-[#003262] mb-4 border-b-2 border-blue-200 pb-2">Principles of ICC</h2>
           <ul className="space-y-3">
             {principles.map((item) => (
               <li key={item.id} className="flex items-start">
-                <span className="bg-blue-100 text-blue-800 rounded-full w-6 h-6 flex items-center justify-center mr-3 flex-shrink-0">{item.id}</span>
+                <span className="bg-blue-100 text-[#003262] rounded-full w-6 h-6 flex items-center justify-center mr-3 flex-shrink-0">{item.id}</span>
                 <span className="text-gray-700">{item.desc}</span>
               </li>
             ))}
@@ -189,11 +189,11 @@ const InternalComplaintCommittee = () => {
 
         {/* Functions */}
         <div className="bg-white rounded-xl shadow-md p-6">
-          <h2 className="text-xl font-bold text-blue-800 mb-4 border-b-2 border-blue-200 pb-2">Functions of ICC</h2>
+          <h2 className="text-xl font-bold text-[#003262] mb-4 border-b-2 border-blue-200 pb-2">Functions of ICC</h2>
           <ul className="space-y-3">
             {functions.map((item) => (
               <li key={item.id} className="flex items-start">
-                <span className="bg-blue-100 text-blue-800 rounded-full w-6 h-6 flex items-center justify-center mr-3 flex-shrink-0">{item.id}</span>
+                <span className="bg-blue-100 text-[#003262] rounded-full w-6 h-6 flex items-center justify-center mr-3 flex-shrink-0">{item.id}</span>
                 <span className="text-gray-700">{item.desc}</span>
               </li>
             ))}
@@ -203,7 +203,7 @@ const InternalComplaintCommittee = () => {
 
       {/* Rules and Regulations */}
       <div className="bg-white rounded-xl shadow-md p-6 mb-8">
-        <h2 className="text-xl font-bold text-blue-800 mb-4 border-b-2 border-blue-200 pb-2">Rules and Regulations</h2>
+        <h2 className="text-xl font-bold text-[#003262] mb-4 border-b-2 border-blue-200 pb-2">Rules and Regulations</h2>
         <p className="text-gray-700">
           The ICC is constituted to help maintain a harmonious atmosphere at the Institute, and to enable women to pursue 
           their work with dignity and reassurance. The Cell has been working to raise awareness of gender equality issues.
@@ -212,10 +212,10 @@ const InternalComplaintCommittee = () => {
 
       {/* Filing Complaint */}
       <div className="bg-white rounded-xl shadow-md p-6 mb-8">
-        <h2 className="text-xl font-bold text-blue-800 mb-4 border-b-2 border-blue-200 pb-2">Filing Complaint</h2>
+        <h2 className="text-xl font-bold text-[#003262] mb-4 border-b-2 border-blue-200 pb-2">Filing Complaint</h2>
         <p className="text-gray-700 mb-4">
           Complaints must be submitted in a "Complaint Registration Form" which is provided on the respective website at 
-          <span className="font-semibold text-blue-600"> icc.cell@ABVSU.sc.in</span>.
+          <span className="font-semibold text-[#003262]"> icc.cell@ABVSU.sc.in</span>.
         </p>
         <p className="text-gray-700">
           Within 24 hours of online submission, the complaint must be physically validated at the ICC office by the 
@@ -226,7 +226,7 @@ const InternalComplaintCommittee = () => {
 
       {/* Committee Composition */}
       <div className="bg-white rounded-xl shadow-md p-6 mb-8">
-        <h2 className="text-xl font-bold text-blue-800 mb-4 border-b-2 border-blue-200 pb-2">Internal Complaint Committee Composition</h2>
+        <h2 className="text-xl font-bold text-[#003262] mb-4 border-b-2 border-blue-200 pb-2">Internal Complaint Committee Composition</h2>
         <p className="text-gray-700 mb-6">
           In pursuance of the Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act 2013 and in 
           accordance with Section 4 AICTE (Gender Sensitization, Prevention, and Prohibition of harassment of Women 
@@ -235,11 +235,11 @@ const InternalComplaintCommittee = () => {
           complaints relating to sexual harassment at the workplace.
         </p>
         
-        <h3 className="text-lg font-semibold text-blue-700 mb-3">Committee Members</h3>
+        <h3 className="text-lg font-semibold text-[#003262] mb-3">Committee Members</h3>
         <div className="grid md:grid-cols-2 gap-4">
           {members.map((item) => (
             <div key={item.id} className="flex items-center bg-gray-50 p-3 rounded-lg">
-              <span className="bg-blue-100 text-blue-800 rounded-full w-8 h-8 flex items-center justify-center mr-3 flex-shrink-0 font-medium">{item.id}</span>
+              <span className="bg-blue-100 text-[#003262] rounded-full w-8 h-8 flex items-center justify-center mr-3 flex-shrink-0 font-medium">{item.id}</span>
               <span className="text-gray-700 font-medium">{item.desc}</span>
             </div>
           ))}
@@ -248,7 +248,7 @@ const InternalComplaintCommittee = () => {
 
       {/* Contact CTA */}
       <div className="bg-blue-50 rounded-xl p-6 text-center border border-blue-200">
-        <h3 className="text-xl font-bold text-blue-800 mb-2">Need Assistance?</h3>
+        <h3 className="text-xl font-bold text-[#003262] mb-2">Need Assistance?</h3>
         <p className="text-gray-700 mb-4">The ICC is here to help maintain a safe and respectful environment for all.</p>
         <button className="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-6 rounded-lg transition duration-300">
           Contact ICC

@@ -2,15 +2,16 @@ import React from "react";
 import img from "@/public/images/inspiration.jpg";
 import img2 from "@/public/images/accreditation.jpg";
 import Image from "next/image";
+import GovtPartners from "../landing-page/GovtPartners";
 
 const WhyUs = () => {
   return (
     <section>
       <div className="container px-4 md:px-0 mx-auto py-10 max-w-7xl">
         <div className="flex flex-col md:flex-row">
-          <div className="flex flex-col md:flex-row gap-6">
-            <div className="w-full md:w-2/3 flex flex-col gap-4 text-justify my-auto">
-              <h2 className="text-2xl md:text-3xl font-bold">
+          <div className="flex flex-col md:flex-row gap-32">
+            <div className="w-full md:w-2/3 flex flex-col gap-10 text-justify my-auto">
+              <h2 className="text-2xl md:text-3xl font-bold text-[#003262]">
                 Why Choose Atal Bihari Vajpayee Skill University (ABVSU)
               </h2>
               <p>
@@ -32,7 +33,7 @@ const WhyUs = () => {
                 alt="Our Work"
                 className="w-full max-w-[400px] h-auto object-cover  
       sepia-[50%] grayscale-[20%] brightness-90 contrast-75 opacity-90 
-      border border-white/30 shadow-lg"
+      border border-white/30 shadow-lg rounded-xl"
               />
             </div>
           </div>
@@ -41,7 +42,7 @@ const WhyUs = () => {
 
       <div className="container px-4 md:px-0 mx-auto py-10 max-w-7xl">
         <div className="flex flex-col md:flex-row">
-          <div className="flex flex-col md:flex-row gap-6">
+          <div className="flex flex-col md:flex-row gap-32">
             <div className="w-full md:w-1/3 relative">
               <div className="absolute inset-0 bg-white/20 blur-lg "></div>
               <Image
@@ -50,13 +51,13 @@ const WhyUs = () => {
                 height={250}
                 alt="Our Work"
                 className="w-full max-w-[400px] h-auto object-cover  
-      sepia-[50%] grayscale-[20%] brightness-90 contrast-75 opacity-90 
-      border border-white/30 shadow-lg"
+                sepia-[50%] grayscale-[20%] brightness-90 contrast-75 opacity-90 
+                border border-white/30 shadow-lg rounded-xl"
               />
             </div>
 
             <div className="w-full md:w-2/3 flex flex-col gap-4 text-justify my-auto">
-              <h2 className="text-2xl md:text-3xl font-bold">
+              <h2 className="text-2xl md:text-3xl font-bold text-[#003262]">
                 Empowering Future Leaders through Education and Values
               </h2>
               <p>
@@ -73,6 +74,10 @@ const WhyUs = () => {
             </div>
           </div>
         </div>
+      </div>
+
+      <div>
+        <GovtPartners/>
       </div>
     </section>
   );

@@ -8,7 +8,7 @@ const VisionAndMission = () => {
     <>
       <section className="px-4">
         <div className="container mx-auto max-w-7xl">
-          <h2 className="text-3xl text-black font-bold py-5">
+          <h2 className="text-3xl text-[#003262] font-bold py-5">
             Our Mission
           </h2>
           <div className="mission flex flex-col md:flex-row text-justify">
@@ -32,7 +32,7 @@ const VisionAndMission = () => {
                 width={800}
                 height={450}
                 alt="Our Mission"
-                className="w-full max-h-[400px] mx-4 h-auto rounded-lg "
+                className="w-full max-h-[400px] mx-4 h-auto rounded-xl "
               />
             </div>
           </div>
@@ -40,7 +40,7 @@ const VisionAndMission = () => {
       </section>
 
       <section className="container mx-auto px-4 max-w-7xl" >
-        <h2 className="text-3xl text-black font-bold py-5 ">
+        <h2 className="text-3xl text-[#003262] font-bold py-5 ">
           Our Vision
         </h2>
 
@@ -51,7 +51,7 @@ const VisionAndMission = () => {
               width={800}
               height={450}
               alt="Our Vision"
-              className="w-full pr-8 max-h-[350px] h-auto  "
+              className="w-full pr-8 max-h-[350px] h-auto rounded-2xl mb-10 "
             />
           </div>
           <div className="vision-content w-full md:w-1/2 flex flex-col gap-3 text-justify">

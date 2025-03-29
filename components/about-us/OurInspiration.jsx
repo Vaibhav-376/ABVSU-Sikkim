@@ -7,9 +7,9 @@ const OurInspiration = () => {
     <section>
       <div className="container px-4 md:px-0 mx-auto py-10 max-w-7xl">
         <div className="flex flex-col md:flex-row">
-          <div className="flex flex-col md:flex-row gap-6">
+          <div className="flex flex-col md:flex-row gap-28">
             <div className="w-full md:w-2/3 flex flex-col gap-4 text-justify">
-              <h2 className="text-2xl md:text-3xl font-bold">
+              <h2 className="text-2xl md:text-3xl font-bold text-[#003262]">
                 Our Inspiration
               </h2>
               <p>
@@ -46,8 +46,8 @@ const OurInspiration = () => {
                 height={250}
                 alt="Our Work"
                 className="w-full max-w-[400px] h-auto object-cover  
-      sepia-[50%] grayscale-[20%] brightness-90 contrast-75 opacity-90 
-      border border-white/30 shadow-lg"
+                  sepia-[50%] grayscale-[20%] brightness-90 contrast-75 opacity-90 
+                  border border-white/30 shadow-lg rounded-xl"
               />
             </div>
           </div>

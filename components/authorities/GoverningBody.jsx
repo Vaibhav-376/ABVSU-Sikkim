@@ -2,7 +2,7 @@ export default function GoverningBody() {
   return (
     <div className="container mx-auto px-6 py-10 max-w-6xl">
       <div className="">
-        <h2 className=" text-3xl font-bold ">Authorities of ABVSU</h2>
+        <h2 className=" text-3xl font-bold text-[#003262]">Authorities of ABVSU</h2>
         <p className="text-lg mb-4">The following shall be the authorities of the university:</p>
 
         {/* Governing Body */}

@@ -8,7 +8,7 @@ const Accreditation = () => {
         <div className="flex flex-col md:flex-row">
           <div className="flex flex-col md:flex-row gap-6">
             <div className="w-full md:w-2/3 flex flex-col gap-4 text-justify">
-              <h2 className="text-2xl md:text-3xl font-bold">
+              <h2 className="text-2xl md:text-3xl font-bold text-[#003262]">
                 Evaluating the Quality of Higher Education Institutions and
                 Programs
               </h2>
@@ -46,7 +46,7 @@ const Accreditation = () => {
                 width={400}
                 height={250}
                 alt="Our Work"
-                className="w-full max-w-[400px] h-auto  object-cover"
+                className="w-full max-w-[400px] h-auto rounded-xl object-cover"
               />
             </div>
           </div>
@@ -55,7 +55,7 @@ const Accreditation = () => {
       </div>
 
       <div className="container px-4 md:px-0 mx-auto flex flex-col max-w-7xl py-10 gap-3">
-        <h3 className="text-2xl md:text-3xl font-bold">Certification & Recognition </h3>
+        <h3 className="text-2xl md:text-3xl font-bold text-[#003262]">Certification & Recognition </h3>
         <p>
           Certification and recognition are vital in upholding the quality and
           excellence of educational institutions. At Atal Bihari Vajpayee Skill

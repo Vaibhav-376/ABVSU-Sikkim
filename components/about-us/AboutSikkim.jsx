@@ -152,7 +152,7 @@ const AboutSikkim = () => {
                   width={400}
                   height={250}
                   alt={section.title}
-                  className="w-full max-h-[400px] rounded-sm object-cover"
+                  className="w-full max-h-[400px] rounded-lg object-cover"
                 />
               </div>
             </div>
