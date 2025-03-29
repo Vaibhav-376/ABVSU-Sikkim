@@ -30,10 +30,10 @@ const VocationalStudies = () => {
     <section className='py-10'>
       <div className="flex flex-col gap-3 py-10 container mx-auto px-6">
 
-        <h2 className='text-3xl font-bold'>
+        <h2 className='text-3xl font-bold text-[#003262]'>
           School of Vocational Studies – AVBSU
         </h2>
-        <div className="flex flex-col md:flex-row gap-4">
+        <div className="flex flex-col md:flex-row gap-20">
           <div className="content w-full md:w-2/3 text-justify my-auto">
             <p>
               The School of Vocational Studies at AVBSU is committed to providing industry-oriented education that bridges the gap between the conventional education system and real-world professional demands. With a focus on skill development, hands-on training, and career readiness, the school equips students with the practical expertise needed to excel in various industries.

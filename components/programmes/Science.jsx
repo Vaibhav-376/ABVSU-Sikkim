@@ -23,10 +23,10 @@ const Science = () => {
     <section className='py-10'>
       <div className="flex flex-col gap-3 py-10 container mx-auto px-6">
 
-        <h2 className='text-3xl font-bold'>
+        <h2 className='text-3xl font-bold text-[#003262]'>
           School of Science – AVBSU
         </h2>
-        <div className="flex flex-col md:flex-row gap-4">
+        <div className="flex flex-col md:flex-row gap-20">
           <div className="content w-full md:w-2/3 text-justify my-auto">
             <p>
             The School of Sciences at AVBSU is dedicated to fostering a strong foundation in scientific inquiry, research, and innovation. Established with the goal of achieving academic excellence, the school focuses on equipping students with cutting-edge knowledge and practical skills to meet the demands of an ever-evolving scientific landscape.

@@ -53,7 +53,7 @@ const ArtsAndSocialScience = () => {
     <section className='py-10'>
       <div className="flex flex-col gap-3 py-10 container mx-auto px-6">
 
-        <h2 className='text-3xl font-bold'>
+        <h2 className='text-3xl font-bold text-[#003262]'>
         School of Arts, Humanities and Social Science – AVBSU
         </h2>
         <div className="flex flex-col md:flex-row gap-4">
@@ -71,7 +71,7 @@ const ArtsAndSocialScience = () => {
               width={400}
               height={250}
               alt={" cs and it "}
-              className="w-full max-h-[300px] object-cover"
+              className="w-full max-h-[300px] object-cover rounded-xl"
             />
           </div>
 

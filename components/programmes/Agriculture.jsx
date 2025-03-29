@@ -29,7 +29,7 @@ const Agriculture = () => {
     <section className='py-10'>
       <div className="flex flex-col gap-3 py-10 container mx-auto px-6">
 
-        <h2 className='text-3xl font-bold'>
+        <h2 className='text-3xl font-bold text-[#003262]'>
           School of Agriculture – AVBSU
         </h2>
         <div className="flex flex-col md:flex-row gap-4">

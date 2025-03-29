@@ -19,10 +19,10 @@ const ComputerScienceDetails = () => {
     <section className='py-10'>
       <div className="flex flex-col gap-3 py-10 container mx-auto px-6">
 
-        <h2 className='text-3xl font-bold'>
+        <h2 className='text-3xl font-bold text-[#003262]'>
           School of Computer Science And Information Technology
         </h2>
-        <div className="flex flex-col md:flex-row gap-4">
+        <div className="flex flex-col md:flex-row gap-20">
           <div className="content w-full md:w-2/3 text-justify">
             <p>The School of Computer Science and Information Technology at Atal Bihari Vajpayee Skill University (ABVSU) is dedicated to providing industry-focused education in the fields of information technology, software engineering, computer applications, and specialized domain-specific technologies. The school aims to equip students with cutting-edge technical skills, problem-solving abilities, and hands-on experience to meet the growing demands of the digital world.
             </p>
@@ -36,7 +36,7 @@ const ComputerScienceDetails = () => {
               width={400}
               height={250}
               alt={" cs and it "}
-              className="w-full max-h-[400px] object-cover"
+              className="w-full max-h-[400px] rounded-xl object-cover"
             />
           </div>
 

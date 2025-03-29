@@ -29,10 +29,10 @@ const HotelManagement = () => {
     <section className='py-10'>
       <div className="flex flex-col gap-3 py-10 container mx-auto px-6">
 
-        <h2 className='text-3xl font-bold'>
+        <h2 className='text-3xl font-bold text-[#003262]'>
           School of Hotel Management – AVBSU
         </h2>
-        <div className="flex flex-col md:flex-row gap-4">
+        <div className="flex flex-col md:flex-row gap-20">
           <div className="content w-full md:w-2/3 text-justify my-auto">
             <p>
               The School of Hotel Management and Tourism at AVBSU is dedicated to providing comprehensive and industry-focused education in the field of hospitality and tourism management. The school aims to equip students with in-depth knowledge of the various aspects and nuances of hotel management, both in India and abroad.
@@ -47,7 +47,7 @@ const HotelManagement = () => {
               width={400}
               height={250}
               alt={" cs and it "}
-              className="w-full  object-cover"
+              className="w-full  object-cover rounded-xl"
             />
           </div>
 

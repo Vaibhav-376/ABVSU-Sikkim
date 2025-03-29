@@ -9,7 +9,7 @@ const SoftwareDevelopment = () => {
         <div className="flex flex-col md:flex-row">
           <div className="flex flex-col md:flex-row gap-6">
             <div className="w-full md:w-2/3 flex flex-col gap-4 text-justify">
-              <h2 className="text-2xl md:text-3xl font-bold">
+              <h2 className="text-2xl md:text-3xl font-bold text-[#003262]">
                 Software Development
               </h2>
               <p>

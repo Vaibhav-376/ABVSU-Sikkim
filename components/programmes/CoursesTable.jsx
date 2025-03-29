@@ -3,11 +3,11 @@ import React from 'react'
 const CoursesTable = ({courses}) => {
     return (
         <div className="container mx-auto p-6 bg-white">
-        <h4 className="text-2xl font-semibold mb-4">Courses Offered</h4>
+        <h4 className="text-2xl font-semibold mb-4 text-[#003262]">Courses Offered</h4>
         <div className="overflow-x-auto">
           <table className="w-full border border-gray-300 rounded-lg">
             <thead>
-              <tr className="bg-gray-800 text-white">
+              <tr className="bg-[#003262] text-white">
                 <th className="p-2 text-center border border-gray-300">Course</th>
                 <th className="p-2 text-center border border-gray-300 w-1/3">Specialization</th>
                 <th className="p-2 text-center border border-gray-300">Duration</th>
