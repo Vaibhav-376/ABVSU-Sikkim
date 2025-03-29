@@ -62,7 +62,7 @@ const CourseDropDown = () => {
       <h2 className="text-3xl font-bold text-[#003262] mb-4">
         ABVSU Academic Programs Suited For You
       </h2>
-      <div className="flex flex-wrap gap-4 justify-center mt-5 bg-gray-100 shadow-md p-14 rounded-xl">
+      <div className="flex flex-wrap gap-4 justify-center mt-5 bg-[#003262] shadow-md p-14 rounded-xl">
         <select
           value={selectedLevel}
           onChange={handleLevelChange}
